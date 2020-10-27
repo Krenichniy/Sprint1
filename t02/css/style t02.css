@@ -1,0 +1,45 @@
+table{
+    border:grey;
+}
+.th{
+    color: white
+}
+.heat{
+    background-color: black;
+}
+.a{
+    background-color:orange
+}
+.a1{
+    width: 100px;
+}
+.a2{
+    width: 100px;
+}
+.b{
+    background-color: green;
+}
+.c{
+    background-color: blue;
+}
+.d{
+    background-color: yellow;
+}
+.e{
+    background-color: red;
+}
+.f{
+    background-color: purple;
+}
+.col{
+    color: white
+}
+.col3{
+    color: white
+}
+.col2{
+    color: white
+}
+.col4{
+    color: white
+}
