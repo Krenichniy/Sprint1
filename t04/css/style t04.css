@@ -1,0 +1,18 @@
+.body{
+    margin: 10px;
+}
+.japan{
+    border: 2px solid #cccccc;
+    height: 550px;
+    margin: auto;
+    width: 1200px;
+}
+.japan:before{
+    background-color: #bc002d;
+    border-radius: 50%;
+    content: "";
+    display: block;
+    height: 300px;
+    margin: 120px auto;
+    width: 300px;
+}

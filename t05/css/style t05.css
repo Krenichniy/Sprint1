@@ -1,0 +1,110 @@
+img{
+    height: 182px;
+    box-sizing:  border-box;
+    margin: ;
+}
+.card-img{
+    align-self: flex-end;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+.main{
+    align-self: flex-end;
+}
+.card-cap{
+    display: inline-flex;
+    margin-left: 30px;
+    width: 300px;
+    height: 160px;
+    border-radius: 5px;
+    margin-top: 60px;
+    background: linear-gradient(to bottom, #4568dc,#b06ab3);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.text-cap{
+    color: white;
+    line-height: 1px;
+    font-size: 12px;
+    margin-left: -20px;
+}
+.card-iron{
+    display: inline-flex;
+    justify-content: space-between;
+    margin-left: 30px;
+    width: 300px;
+    height: 160px;
+    border-radius: 5px;
+    margin-top: 60px;
+    background: linear-gradient(to bottom, #e52d27,#b31217);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .text-iron{
+        color: white;
+        font-size: 12px;
+        line-height: 5px;
+        margin-right: 8px;
+    }
+    .card-bw{
+        display: inline-flex;
+        margin-left: 30px;
+
+        width: 300px;
+        height: 160px;
+        border-radius: 5px;
+        margin-top: 60px;
+        background: linear-gradient(to right,#000, #61045f);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .text-bw{
+        color: white;
+        font-size: 12px;
+        line-height: 5px;
+        margin-left: 35px;
+   }
+   .card-sm{
+       display: inline-flex;
+       margin-left: 30px;
+
+       width: 300px;
+       height: 160px;
+       border-radius: 5px;
+       margin-top: 80px;
+       background: linear-gradient(to bottom, #e52d27, #000);
+       font-family: Verdana, Geneva, Tahoma, sans-serif;
+   }
+   .text-sm{
+       color: white;
+       font-size: 12px;
+       line-height: 5px;
+       margin-left: 80px;
+   }
+   .card-img-sm{
+       margin: -25px;
+       margin-left: 10px;
+   }
+   .p1{
+       text-align: right;
+       margin-right: 1px;
+   }
+   .p2{
+    text-align: right;
+    margin-right: 1px;
+}
+ .p3{
+    text-align: right;
+    margin-right: 1px;
+}
+.p4{
+    text-align: right;
+    margin-right: 1px;
+}
+p{
+    color: rgba(255,255,255,0.5);
+    font-size: 9px;
+}
+.h-bw{
+    margin-left: 5px;
+}
+.card-img-sm{
+    margin-top: 50px;
+}
