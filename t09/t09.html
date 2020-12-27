@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Superhero Form</title>
+    <meta name="description" content="t09. Heroic table">
+    <link rel="stylesheet" href=".//css/style t09.css">
+</head>
+<body>
+    <h1>Superhero Form</h1>
+     <form action="#" method="GET"> 
+       <fieldset>
+         <legend>About the Superhero</legend>
+         <label >Real Name<input type="text" name="real name" placeholder="Superhero real name" autofocus/></label>
+         <label>Superhero Name<input type="text" name="sp name" placeholder="Superhero alias"/></label>
+         <label >Age<input type="number" name="num"min="1" max="999"/></label>
+         <br/>
+        <br/>
+         <div>
+          <label>About<textarea cols="70" rows="5" maxlength="500" placeholder="Information about the superhero, max 500 symbols"></textarea></label>
+         </div>
+         <br/>
+         <label >Photo<input type="file" name="photo"/></label>
+       </fieldset>
+       <fieldset>
+        <legend>Powers</legend>
+        <p><input type="checkbox" name="power" value="yes"/> Telekinesis
+        <input checked type="checkbox" name="power2" value="yes"/> Super strength or speed
+        <input type="checkbox" name="power3" value="yes"/> Shapeshifting
+        <input type="checkbox" name="power4" value="yes"/> Fight
+        <input disabled type="checkbox" name="power5" value="yes"/> Elemental control
+        <input type="checkbox" name="power6" value="yes"/> Other</p>
+        <p>
+          <label>Level control
+          <input type="range" min="1" max="10" value="1" class="slider"/> 
+        </label>
+        </p>
+      </fieldset>
+      <fieldset>
+        <legend>Origin of Powers</legend>
+        <p>
+        <input type="radio" name="powers"/>Unknown
+        <input type="radio" name="powers"/>Freak lab accident
+        <input type="radio" name="powers"/>Chosen by an ancient wise being
+        <input type="radio" name="powers"/>The superhero is not human
+        <input type="radio" name="powers"/>Other
+      </p>
+      </fieldset>
+
+      <p>
+        <!--<input type="search" name="text"  class="tex"  placeholder="Search for any character, power, secret identity"/>-->
+        <input type="reset" class="but" value="CLEAR"/>
+        <input type="submit" class="but" value="SEND"/>
+    </p>
+     </form>
+  
+</body>
+</html>
