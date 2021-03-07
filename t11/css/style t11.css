@@ -1,0 +1,37 @@
+
+.day{
+    width: 140px;
+    display: inline-table;
+    flex-direction: column;
+    box-sizing: border-box;
+    margin-top: auto;
+    margin-left: 5px;
+   
+}
+img{
+    width: 100px;
+    margin-left: 15px;
+    margin-top: 20px;
+}
+.date{
+    color: rgb(255, 255, 255);
+    background-color: rgb(77, 129, 155) ; 
+    font-family: 'Lato', bold;
+    font-weight: 700;
+    font-size: 1.5em;
+    text-align: center;
+   
+    
+  
+}
+.temp{
+    font-family:  'Lato', regular;
+    font-weight: 400;
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: auto;
+}
+.day:hover{
+    border: 1px solid black;
+    box-shadow: 5px 9px 20px rgb(2, 2, 2);
+}
